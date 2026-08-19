@@ -15,14 +15,14 @@ body {
 
 /* ===== Hero Page ===== */
 @font-face {
-  font-family: 'The Seasons';
-  src: url('Fontspring-DEMO-theseasons-reg.otf') format('opentype');
+  font-family:'The Seasons';
+  src: url('fonts/Fontspring-DEMO-theseasons-reg.otf') format('opentype');
   font-weight: normal;
   font-style: normal;
 }
 
 .hero h1 {
-  font-family: 'FuelBetterFont', sans-serif;
+  font-family: 'The Seasons', sans-serif;
 }
 .hero {
   width: 100%;
