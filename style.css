@@ -32,10 +32,10 @@ body {
   inset: 0;
   background-image: url("hero.jpg");
   background-size: cover;
-  background-position: center;
+  background-position: center 40%;
   background-repeat: no-repeat;
   opacity: 0.9;
-  filter: contrast(10%);
+  /*filter: contrast(10%);*/
   z-index: -1;
 }
 
