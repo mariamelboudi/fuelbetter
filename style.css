@@ -13,6 +13,7 @@ body {
   font-family: Arial, sans-serif;
 }
 
+/* ===== Hero Page ===== */
 .hero {
   width: 100%;
   min-height: 100vh;
@@ -66,4 +67,95 @@ h1 {
 
 .button:hover {
   opacity: 0.85;
+}
+
+/* ===== Mission Page ===== */
+.mission {
+  background-color: #1a0d8f;
+  min-height: 100vh;
+  padding: 60px 60px;
+  font-family: 'Anton', sans-serif;
+}
+
+.mission-header {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  align-items: baseline;
+  margin-bottom: 40px;
+}
+
+.mission h1 {
+  color: #f5e400;
+  font-size: clamp(36px, 5vw, 64px);
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.mission-intro {
+  color: #f5e400;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 1.5;
+  max-width: 1100px;
+  margin-bottom: 60px;
+}
+
+.mission-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+}
+
+.mission-col h2 {
+  color: #f5e400;
+  font-size: clamp(24px, 3vw, 34px);
+  text-transform: uppercase;
+  margin: 0 0 30px;
+  max-width: 400px;
+}
+
+.mission-col p {
+  color: #f5e400;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 1.5;
+  max-width: 500px;
+}
+
+.mission-cta {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-top: 10px;
+}
+
+.arrow {
+  margin-bottom: 10px;
+}
+
+.survey-link {
+  color: #f5e400;
+  font-size: clamp(22px, 3vw, 30px);
+  text-transform: uppercase;
+  text-decoration: underline;
+  margin-bottom: 20px;
+}
+
+.survey-notes {
+  color: #f5e400;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  text-align: center;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+@media (max-width: 700px) {
+  .mission-grid {
+    grid-template-columns: 1fr;
+  }
 }
