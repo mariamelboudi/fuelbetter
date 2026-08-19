@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our Mission — Fuel Better</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="mission">
+    <div class="mission-header">
+      <h1>Our Mission</h1>
+      <h1>Damn. Good. Food.</h1>
+    </div>
+
+    <p class="mission-intro">
+      Finding a snack that is neither a sugar bomb, nor packed with artificial sweetners, that doesnt have a weird texture and yet is still high in protein is - simply put - a headache. So we are taking the matter into our own hands and are launching a market research to better understand your expectations around snacks. Proudly queer-owned and based in Berlin.
+    </p>
+
+    <div class="mission-grid">
+      <div class="mission-col">
+        <h2>We dont believe in compromise</h2>
+        <p>And neither should you. Our ideal recipe? Packed with protein, zero artificial sweetners, a banging taste, and just the right texture. A product you can genuinely enjoy - whether you lead an active lifestyle or are just looking for a treat.</p>
+      </div>
+
+      <div class="mission-col mission-cta">
+        <svg class="arrow" viewBox="0 0 100 100" width="90" height="90">
+          <path d="M20,10 C60,10 80,40 75,75" stroke="#f5e400" stroke-width="6" fill="none" stroke-linecap="round"/>
+          <polygon points="60,68 75,80 82,60" fill="#f5e400"/>
+        </svg>
+        <a href="#" class="survey-link">Fill out the survey</a>
+        <p class="survey-notes">
+          Zero data collection.<br>
+          Zero marketing spam.<br>
+          Zero AI nonsense.
+        </p>
+      </div>
+    </div>
+  </main>
+</body>
+</html>
