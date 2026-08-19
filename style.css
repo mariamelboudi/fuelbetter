@@ -89,9 +89,9 @@ h1 {
 
 .mission-header {
   display: flex;
-  flex-wrap: wrap;
-  gap: 40px;
+  justify-content: space-between;
   align-items: baseline;
+  flex-wrap: wrap;
   margin-bottom: 40px;
 }
 
