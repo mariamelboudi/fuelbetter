@@ -10,16 +10,10 @@ body {
 }
 
 body {
-  font-family: Arial, sans-serif;
+  font-family: Gasoek One;
 }
 
 /* ===== Hero Page ===== */
-@font-face {
-  font-family:'The Seasons';
-  src: url('fonts/Fontspring-DEMO-theseasons-reg.otf') format('opentype');
-  font-weight: normal;
-  font-style: normal;
-}
 
 .hero h1 {
   font-family: 'The Seasons', sans-serif;
