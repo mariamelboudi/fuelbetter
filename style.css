@@ -161,7 +161,14 @@ h1 {
   line-height: 1.6;
 }
 
-@media (max-width: 700px) {
+.mobile-break {
+  display: none;
+}
+
+@media (max-width: 600px) {
+  .mobile-break {
+    display: block;
+  }
   .mission-grid {
     grid-template-columns: 1fr;
   }
