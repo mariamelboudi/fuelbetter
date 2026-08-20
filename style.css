@@ -137,11 +137,14 @@ h1 {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  position: relative; /* needed so the arrow positions relative to this box */
   padding-top: 10px;
 }
 
 .arrow {
-  margin-bottom: 10px;
+  position: absolute;
+  top: -60px; /* adjust to place the arrow above the link, outside normal flow */
+  left: 100px; /* adjust horizontally to match your design */
 }
 
 .survey-link {
@@ -152,6 +155,7 @@ h1 {
   text-transform: uppercase;
   text-decoration: underline;
   margin-bottom: 20px;
+  margin-top: 0; /* make sure nothing above it is adding extra space */
 }
 
 .survey-notes {
