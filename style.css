@@ -113,6 +113,8 @@ h1 {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 60px;
+  max-width: 1100px;
+  margin: 0 auto;
 }
 
 .mission-col h2 {
@@ -126,8 +128,6 @@ h1 {
 
 .mission-col p {
   color: #FFF700;
-  /*font-family: Arial, sans-serif;
-  font-weight: bold;*/
   font-size: 18px;
   line-height: 1.5;
   max-width: 500px;
